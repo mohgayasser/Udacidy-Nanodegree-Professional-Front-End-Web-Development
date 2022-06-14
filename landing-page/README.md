@@ -12,5 +12,5 @@ this project is used to practice in the javascript content to specifically know 
  CSS
  
 
-## project-Description
+## Project-Description
 this project is made for practicing in the javascript and js ES6 
