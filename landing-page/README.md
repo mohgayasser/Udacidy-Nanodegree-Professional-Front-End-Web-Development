@@ -1,16 +1,19 @@
 # Landing Page Project
-## Brief description of the app
-this project is used to practice in the javascript content to specifically know the current content in the viewpoint or to scroll smoothly to the section that has been selected from the nav bar and also add all sections dynamically in the nav bar. 
-## Table of Contents
 
-* [Requirements](#Requirements)
-* [Project-Description] (#project-Description)
+A simple landing page. The page layout was already created before the beginning of the project. The project was to apply **four dynamic aspects** to the page.
 
-## Requirements
- javascript 
- Html
- CSS
- 
+## 1. Dynamically Generated Navigation Menu
 
-## Project-Description
-this project is made for practicing in the javascript and js ES6 
+Created a nav-bar that is dynamically generated with JavaScript, using DOM manipulation techniques. The menu items are based on the sections present in page.
+
+## 2. Smoothe Scrolling (when using nav-bar links)
+
+Applied an event handling function for using the links to be more smooth, which is recommendable to enhance user experience.
+
+## 3. Showing Current Section in the Viewport as 'active' Along With Its Corrsponding Navigation Menu Link
+
+Used event listening to any event that may affect sections' position in relation to the viewprot in order to determine which is closer to the center of the viewprot.
+
+## 4. Changing the Navigation Menu According to the Viewport Width
+
+Changing the css to respond to window width change and adding event listener to show the menu by clicking on the menu button and hiding it by clicking anywhere on the page.
